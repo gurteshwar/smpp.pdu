@@ -244,6 +244,8 @@ class DeliverSM(PDUDataRequest):
         'payload_type',
         'message_payload',
         'callback_num',
+        'source_network_type',
+		'dest_network_type',
         'source_subaddress',
         'dest_subaddress',
         'language_indicator',
